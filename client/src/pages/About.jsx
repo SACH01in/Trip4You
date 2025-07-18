@@ -1,10 +1,10 @@
 import React from 'react'
 import AppLayout from '../components/AppLayout'
 
-const HomePage = () => {
+const About = () => {
   return (
-    <div>Home</div>
+    <div>About</div>
   )
 }
 
-export default React.memo(AppLayout(HomePage))
+export default React.memo(AppLayout(About))
